@@ -26,6 +26,14 @@ lazy val chapter9 = (project in file("chapter9")).settings(
   scalaVersion := "2.12.6",
   description := "ConcurrencyInPractice"
   )
+
+
+lazy val chapter9a = (project in file("chapter9a")).settings(
+  name := "Debugging",
+  version := "0.1",
+  scalaVersion := "2.12.6",
+  description := "Debugging"
+)
   
 
 
